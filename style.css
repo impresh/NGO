@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.header{
+    padding: 20px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header li{
+    margin: 30px;
+    display: inline-block;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header ul li a :hover{
+    color: red;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}        
+
+.wedo{
+    padding: 50px;
+    margin: 30px;
+    font-size: 20px;
+    display: flex;
+}
+.wedo h4{
+    margin-top: 20px;
+    font-weight: normal;
+}
+.icon1{
+    margin-top: 60px;
+    height: 50px;
+    width: 300px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.icon1:hover{
+    background-color:#bb2d3b ;
+}
+.icon1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.main img{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.main h3{ 
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h2{
+
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.impact{
+    height: 480px;
+    padding: 20px;
+    background-color:aliceblue;
+    
+}
+.impact h1{
+    margin-top: 20px;
+    font-size:50px;
+    
+}
+.headings{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.headings h4{
+
+    color: red;
+    font-size: 15px;
+} 
+.howwework{
+    padding: 20px;
+    height: 600px;
+}
+.howwework h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.workk{
+    padding: 30px;
+}
+.grid{
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 500px;
+    font-size: 15px;
+    margin: 20px;
+    height: 1300px;
+}
+
+.donate{
+    height: 35px;
+    width: 150px;
+    background-color: red;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.donate:hover{
+    background-color:#bb2d3b ;
+}
+
+.donate a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid img{
+    height: 200px;
+}
+
+.redbox{
+    background-color: red;
+    height: 200px;
+    padding: 30px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.redbox h1{
+    font-size: 30px;
+    color:white;
+    margin: 20px;
+}
+
+.icon2{
+    margin-top: 30px;
+    height: 70px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 28px;
+}
+.icon2:hover{
+    background-color:#bb2d3b;
+    color: white;
+}
+
+.footer{
+    background-color: #212529;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.footer a img{
+    background-color: aliceblue;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.red1{
+    margin-top: 5px;
+    height: 7px;
+    width: 70px;
+    background-color: red;
+    border-radius: 30px;
+}
+.quicklinks a{
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+}
+
+.resources a{
+    display: flex;
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+}
